@@ -1,14 +1,14 @@
-# 🎬 Task 2: Data Visualization & Storytelling — Netflix Dataset
+#  Task 2: Data Visualization & Storytelling — Netflix Dataset
 **Tool: Tableau Public (Free) | Dataset: Netflix Movies & TV Shows**
 
-## 📌 Objective
+##  Objective
 Create compelling visualizations that tell a business story using the Netflix dataset in Tableau Public — demonstrating chart selection, color theory, filters, and data storytelling.
 
-## 🛠️ Tools Used
+##  Tools Used
 - **Tableau Public** (free at https://public.tableau.com)
 - **Dataset:** Netflix Movies & TV Shows — 8,807 titles, 8 columns
 
-## 📂 Project Structure
+##  Project Structure
 ```
 task2-netflix-tableau/
 ├── netflix_titles.csv            ← Upload this to Tableau
@@ -25,7 +25,7 @@ task2-netflix-tableau/
 └── README.md
 ```
 
-## 📊 Visualizations Built in Tableau
+##  Visualizations Built in Tableau
 
 | # | Chart Type | Fields Used | Business Insight |
 |---|-----------|-------------|-----------------|
@@ -37,7 +37,7 @@ task2-netflix-tableau/
 | 6 | Area Chart | release_year, Type | Content concentrated post-2015 |
 | 7 | Dashboard | All fields | Full KPI + multi-chart view |
 
-## 🖥️ How to Build in Tableau Public
+##  How to Build in Tableau Public
 1. Download Tableau Public free from https://public.tableau.com/en-us/s/download
 2. Open Tableau → Connect → Text File → select `netflix_titles.csv`
 3. Go to Sheet 1 — drag fields to Rows/Columns/Color/Size
@@ -45,7 +45,7 @@ task2-netflix-tableau/
 5. Build a Dashboard → drag all sheets onto the canvas
 6. Publish to Tableau Public → copy the public link for GitHub README
 
-## 💡 Key Business Insights
+##  Key Business Insights
 1. Netflix has 2.3x more Movies than TV Shows — TV Shows drive longer engagement (opportunity)
 2. Content additions peaked in 2019, slowing post-COVID — budget tightening signal
 3. USA produces 35% of content; India is #2 driven by Bollywood demand
@@ -53,25 +53,3 @@ task2-netflix-tableau/
 5. TV-MA (adult) = 36% — Netflix is primarily an adult entertainment platform
 6. Most content was released after 2015 — platform focuses on fresh, modern titles
 
-## ❓ Interview Q&A
-
-**Q: What is the importance of data visualization?**
-> Visualization converts raw numbers into patterns humans understand instantly. A chart showing Netflix content peaked in 2019 communicates in seconds what a spreadsheet cannot.
-
-**Q: When do you use a pie chart vs bar chart?**
-> Pie/Donut for part-to-whole with 2–4 categories (Movies vs TV Shows). Bar charts for comparing multiple categories where differences matter (Top 10 Countries).
-
-**Q: What is data storytelling?**
-> Structuring visuals around a business question with a narrative — starting with the big picture, drilling into specifics, and ending with actionable recommendations.
-
-**Q: How do you make visualizations more engaging?**
-> Use consistent color themes, clear titles with insights baked in, annotations for key data points, and interactivity like filters and tooltips.
-
-**Q: How do you avoid misleading visualizations?**
-> Always start bar charts at zero. Label axes clearly. Show sample sizes. Use consistent scales across charts. Don't truncate y-axes without reason.
-
-**Q: What are best practices in dashboard design?**
-> KPI cards at top, related charts grouped together, consistent color theme, whitespace to reduce clutter, every chart answers a specific business question.
-
-**Q: What tools have you used for visualization?**
-> Tableau Public for this task — drag-and-drop interface, publishing dashboards online, interactive filters and slicers. Also used Python (Matplotlib, Seaborn) for programmatic chart generation.
